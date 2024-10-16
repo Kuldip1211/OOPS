@@ -11,6 +11,6 @@ Four main part
 <br />
 <br />
 
-## 1. 📋 Inheritance
+## <font size="7">1. 📋 Inheritance </font>
 
-# <font size="1">🚀 When one object acquires all the properties and behaviors of a parent object, it is known as inheritance. It provides code reusability. It is used to achieve runtime polymorphism.</font>
+ 🚀 When one object acquires all the properties and behaviors of a parent object, it is known as inheritance. It provides code reusability. It is used to achieve runtime polymorphism. 
