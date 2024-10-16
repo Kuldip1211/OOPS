@@ -8,7 +8,7 @@ Four main part
 # Abstraction
 # Encapsulation
 
---
+---
 
 ## 1. 📋 Inheritance
 
