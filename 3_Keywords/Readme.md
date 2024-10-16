@@ -57,3 +57,33 @@
 <h3>Q) Can we execute a program without the main() method?</h3>
 <p>Ans) No, one of the ways was the static block, but it was possible until JDK 1.6. Since JDK 1.7, it is not possible to execute a Java class without the main method.</p>
 
+<br />
+    <h1>Java This Keyword</h1>
+    <p>There can be a lot of usage of Java <strong>this</strong> keyword. In Java, <strong>this</strong> is a reference variable that refers to the current object.</p>
+    <img src="https://images.javatpoint.com/images/thisr.jpg" alt="Java this keyword" />
+<br />
+    <h2>Usage of Java This Keyword</h2>
+    <p>Here are six usages of the Java <strong>this</strong> keyword:</p>
+    <ul>
+        <li>This can be used to refer to the current class instance variable.</li>
+        <li>This can be used to invoke the current class method (implicitly).</li>
+        <li><strong>this()</strong> can be used to invoke the current class constructor.</li>
+        <li>This can be passed as an argument in the method call.</li>
+        <li>This can be passed as an argument in the constructor call.</li>
+        <li>This can be used to return the current class instance from the method.</li>
+    </ul>
+<br />
+    <h3>1) This: To Refer Current Class Instance Variable</h3>
+    <p>The <strong>this</strong> keyword can be used to refer to the current class instance variable. If there is ambiguity between the instance variables and parameters, the <strong>this</strong> keyword resolves the problem of ambiguity.</p>
+<br />
+    <h3>6) This Keyword Can Be Used to Return Current Class Instance</h3>
+    <p>We can return the <strong>this</strong> keyword as a statement from the method. In such cases, the return type of the method must be the class type (non-primitive). Let's see the example:</p>
+    <br />
+    <h4>Syntax of This that Can Be Returned as a Statement</h4>
+    <pre>
+        return_type method_name() {
+            return this;
+        }
+    </pre>
+
+
